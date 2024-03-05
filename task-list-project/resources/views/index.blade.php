@@ -11,6 +11,10 @@
     @empty
         <div>There is no tasks!</div>
     @endforelse
+
+    @if ($task->count())
+        <div>{{$tasks->links() }}</div>
+    @endif
 @endsection
 {{--        @if(count($tasks) > 0)--}}
 {{--            @foreach($tasks as $task)--}}
