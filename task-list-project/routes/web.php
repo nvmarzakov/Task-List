@@ -65,11 +65,26 @@ $tasks = [
         '2023-03-04 12:00:00'
     ),
 ];
-Route::get('/', function () use ($tasks) {
+
+Route::get('/', function () {
+    return redirect()->route('tasks.index');
+});
+
+Route::get('/tasks', function () use ($tasks) {
     return view('index', [
         'tasks' => $tasks
     ]);
 })->name('tasks.index');
+
+Route::get('/tasks/{id}/', function ($id) use ($tasks) {
+    $task = collect($tasks)->firstWhere('id', $id);
+
+    if(!$task) {
+        abort(Response::HTTP_NOT_FOUND);
+    }
+
+    return view('show', ['task' => $task]);
+})->name('tasks.show');
 
 
 //Route::get('/tasks/{id}', function ($id) {
@@ -77,10 +92,7 @@ Route::get('/', function () use ($tasks) {
 //    return view('show', ['task'=>\App\Models\Task::find($id)]);
 //})->name('tasks.show');
 
-Route::get('/{id}', function ($id) {
-    return 'One single task';
-})->name('tasks.show');
-
 Route::fallback(function () {
     return 'Still got somewhere!';
 });
+
