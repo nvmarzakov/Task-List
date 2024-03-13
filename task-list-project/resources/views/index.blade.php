@@ -18,9 +18,9 @@
                 <ol class="d-flex flex-column gap-1 justify-content-center align-items-center">
                     @forelse($tasks as $task)
                         <li class="col-12 text-center">
-                            <div class="rounded-2">
+                            <div class="rounded-2 d-flex justify-content-center ">
                                 <a  href="{{ route('tasks.show', ['task' => $task->id]) }}"
-                                    @class(['list-group-item text-decoration-line-through text-success border border-success' => $task->completed,'list-group-item text-danger border border-danger' => !$task->completed ])> {{ $task->title }}</a>
+                                    @class(['w-75 list-group-item text-decoration-line-through text-success border border-success' => $task->completed,'w-75 list-group-item text-danger border border-danger' => !$task->completed ])> {{ $task->title }}</a>
                             </div>
 
                         </li>
