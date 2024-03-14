@@ -129,6 +129,7 @@
       <path value="$PROJECT_DIR$/task-list-project/vendor/nette/schema" />
       <path value="$PROJECT_DIR$/task-list-project/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/task-list-project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/task-list-project/vendor/twbs/bootstrap" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

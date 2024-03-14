@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
-      <sourceFolder url="file://$MODULE_DIR$/task-list-project/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/task-list-project/tests/Unit" isTestSource="true" />
@@ -120,6 +119,7 @@
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/twbs/bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/task-list-project/vendor/webmozart/assert" />
