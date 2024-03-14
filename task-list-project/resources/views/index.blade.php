@@ -24,7 +24,7 @@
                                 </nav>
                             @endif
                     @else
-                        <div>There is no tasks!</div>
+                        <div class="fs-4" style="color: #ffffff">There is no tasks!</div>
                     @endif
 
 

@@ -27,7 +27,7 @@
             </li>
         </ul>
     </nav>
-    <h1 class="fs-1 text-center mb-4">@yield('title')</h1>
+    <h1 class="fs-1 text-center mb-4 text-uppercase" style="color: #090000;">@yield('title')</h1>
     <div class="animate__animated animate__fadeIn" x-data="{ flash: true}">
         @if(session()->has('success'))
             <div class="row" x-show="flash">
