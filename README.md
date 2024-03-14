@@ -1,3 +1,4 @@
+This is a simple task management project. You can perform all CRUD operations with tasks. You can Mark them as completed or not completed, as well as when they were created and edited.
 
 ![image](https://github.com/nvmarzakov/task-list/assets/114495254/3d932476-e461-4712-923c-71f2e2be9c3c)
 
